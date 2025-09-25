@@ -1,0 +1,30 @@
+name: gen_pod2
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - ffmpeg
+  - numpy
+  - pytorch
+  - torchaudio
+  - torchvision
+  - pip:
+      - streamlit
+      - openai>=1.0.0
+      - pyannote.audio>=3.1
+      - huggingface_hub
+      - plotly
+      - soundfile >= 0.12.1
+      - pydub
+      - torchmetrics
+      - speechbrain
+      - pyannote.core
+      - pyannote.database
+      - pyannote.metrics
+      - pyannote.pipeline
+      - omegaconf
+      - einops
+      - torch_audiomentations

@@ -1,0 +1,14 @@
+name: gen_pod3
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip>=20.2
+  - ffmpeg=6.1.1
+  - numpy=1.26.4
+  - pydub=0.25.1
+  - plotly=5.24.1
+  - streamlit=1.28.0
+  - pip:
+    - -r requirements.txt
